@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Проектное финансирование | Консалтинг</title>
+<meta name="description" content="Помогаем самозанятым и предпринимателям подготовить бизнес-проект к поиску финансирования: концепция, бизнес-план, консультация.">
+<style>
+:root{
+  --bg:#0b0d10;--card:#13171c;--text:#f5f3ee;--muted:#a9adb4;
+  --gold:#c8a96b;--line:#292e35;--max:1120px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;line-height:1.55}
+a{color:inherit;text-decoration:none}
+.container{width:min(92%,var(--max));margin:auto}
+header{padding:24px 0;border-bottom:1px solid var(--line)}
+.nav{display:flex;justify-content:space-between;align-items:center;gap:20px}
+.logo{font-size:21px;font-weight:700;letter-spacing:.08em}
+.logo span{color:var(--gold)}
+.nav a{font-size:14px;color:var(--muted)}
+.hero{padding:88px 0 70px}
+.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:.16em;font-size:12px;font-weight:700}
+h1{font-size:clamp(40px,7vw,76px);line-height:1.02;max-width:900px;margin:18px 0}
+.hero p{max-width:700px;font-size:20px;color:var(--muted);margin:0 0 32px}
+.btn{display:inline-block;background:var(--gold);color:#101010;padding:15px 25px;border-radius:8px;font-weight:700}
+.btn.secondary{background:transparent;color:var(--text);border:1px solid var(--line);margin-left:10px}
+section{padding:70px 0;border-top:1px solid var(--line)}
+h2{font-size:38px;line-height:1.1;margin:0 0 18px}
+.lead{color:var(--muted);max-width:700px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:32px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:28px}
+.card h3{font-size:23px;margin:10px 0}
+.price{font-size:30px;font-weight:800;color:var(--gold)}
+.card ul{padding-left:20px;color:var(--muted)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin-top:32px}
+.step{border-left:2px solid var(--gold);padding:5px 0 5px 18px}
+.step b{display:block;margin-bottom:8px}
+.step span{color:var(--muted);font-size:14px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:50px}
+.quote{border:1px solid var(--line);border-radius:14px;padding:28px;background:var(--card);font-size:20px}
+.form{max-width:650px}
+input,textarea{width:100%;padding:15px;margin:8px 0;background:#0f1216;border:1px solid var(--line);border-radius:8px;color:var(--text);font:inherit}
+textarea{min-height:120px}
+small{color:var(--muted);display:block;margin-top:12px}
+footer{padding:30px 0;color:var(--muted);font-size:13px}
+@media(max-width:760px){
+ .grid,.steps,.about{grid-template-columns:1fr}
+ .hero{padding:60px 0}
+ .btn.secondary{margin:10px 0 0}
+ .nav a{display:none}
+ h2{font-size:32px}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="container nav">
+  <div class="logo">MARS<span>.</span>CONSULTING</div>
+  <a href="#products">Услуги</a>
+</div>
+</header>
+
+<main>
+<section class="hero" style="border-top:0">
+<div class="container">
+  <div class="eyebrow">Консалтинг по запуску проектов</div>
+  <h1>Упаковываем проекты для финансирования</h1>
+  <p>Помогаем самозанятым и предпринимателям превратить бизнес-идею в понятный проект: определить экономику, подготовить концепцию и бизнес-план, а затем разобраться в подходящих мерах поддержки.</p>
+  <a class="btn" href="#form">Обсудить проект</a>
+  <a class="btn secondary" href="#products">Посмотреть услуги</a>
+</div>
+</section>
+
+<section>
+<div class="container">
+<h2>Что мы делаем</h2>
+<p class="lead">Не обещаем получение гранта или субсидии. Сначала разбираемся в проекте и требованиях конкретной программы, затем готовим необходимые материалы.</p>
+<div class="grid">
+ <div class="card"><h3>Анализ</h3><p>Разбираем идею, цели, модель дохода, стартовые ресурсы и потребность в финансировании.</p></div>
+ <div class="card"><h3>Упаковка</h3><p>Формируем концепцию проекта и структуру, которую можно использовать для дальнейшего рассмотрения.</p></div>
+ <div class="card"><h3>Бизнес-план</h3><p>Собираем экономику проекта, финансовую модель, план действий и ключевые показатели.</p></div>
+</div>
+</div>
+</section>
+
+<section id="products">
+<div class="container">
+<h2>Три формата работы</h2>
+<p class="lead">Выберите уровень подготовки, который соответствует вашей задаче.</p>
+<div class="grid">
+ <div class="card">
+  <div class="eyebrow">01</div><h3>Личная консультация</h3>
+  <div class="price">15 000 ₽</div>
+  <ul><li>Разбор вашей идеи</li><li>Определение ближайших шагов</li><li>Предварительная оценка подходящего формата поддержки</li></ul>
+  <a class="btn" href="#form">Оставить заявку</a>
+ </div>
+ <div class="card">
+  <div class="eyebrow">02</div><h3>Концепция проекта</h3>
+  <div class="price">120 000 ₽</div>
+  <ul><li>Структура проекта</li><li>Целевая аудитория и модель</li><li>Финансовая логика</li><li>Подготовка основы для дальнейшей работы</li></ul>
+  <a class="btn" href="#form">Обсудить проект</a>
+ </div>
+ <div class="card">
+  <div class="eyebrow">03</div><h3>Бизнес-план</h3>
+  <div class="price">50 000 ₽</div>
+  <ul><li>Экономика проекта</li><li>Финансовые показатели</li><li>План запуска</li><li>Материалы для дальнейшего рассмотрения проекта</li></ul>
+  <a class="btn" href="#form">Оставить заявку</a>
+ </div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="container">
+<h2>Как проходит работа</h2>
+<div class="steps">
+ <div class="step"><b>01. Заявка</b><span>Вы рассказываете о задаче и проекте.</span></div>
+ <div class="step"><b>02. Диагностика</b><span>Определяем, что уже есть и чего не хватает.</span></div>
+ <div class="step"><b>03. Подготовка</b><span>Создаём концепцию или бизнес-план в выбранном формате.</span></div>
+ <div class="step"><b>04. Следующий шаг</b><span>Определяем, как использовать подготовленные материалы.</span></div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="container about">
+<div>
+<div class="eyebrow">О подходе</div>
+<h2>От идеи к понятному проекту</h2>
+<p class="lead">Марс Жамалетдинов — предпринимательский консультант, бизнес-трекер и специалист по инвестиционной стратегии. В работе соединяет анализ бизнеса, упаковку проектов и финансовое планирование.</p>
+<p class="lead">Задача не в том, чтобы просто заполнить документы. Важно понять, имеет ли идея экономический смысл, какие ресурсы нужны для запуска и какой следующий шаг рационален.</p>
+</div>
+<div class="quote">«Сначала разбираемся в экономике проекта. Потом выбираем инструмент финансирования. Не наоборот.»</div>
+</div>
+</section>
+
+<section id="form">
+<div class="container">
+<h2>Расскажите о проекте</h2>
+<p class="lead">Оставьте контакты и коротко опишите, что хотите запустить. После первичного рассмотрения определим подходящий формат работы.</p>
+<form class="form" onsubmit="sendForm(event)">
+ <input id="name" required placeholder="Ваше имя">
+ <input id="phone" required placeholder="Телефон или Telegram">
+ <textarea id="project" placeholder="Коротко о проекте и необходимом финансировании"></textarea>
+ <button class="btn" type="submit">Отправить заявку</button>
+ <small>Отправляя форму, вы подтверждаете согласие с условиями обработки персональных данных. Перед публикацией сайта текст согласий, политика обработки персональных данных и договорные документы должны быть адаптированы под вашу фактическую модель работы и проверены юристом.</small>
+</form>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="container">© 2026 MARS.CONSULTING · Консалтинг по подготовке бизнес-проектов</div>
+</footer>
+
+<script>
+function sendForm(e){
+ e.preventDefault();
+ const name=document.getElementById('name').value.trim();
+ const phone=document.getElementById('phone').value.trim();
+ const project=document.getElementById('project').value.trim();
+ const text=`Заявка с сайта%0AИмя: ${encodeURIComponent(name)}%0AКонтакт: ${encodeURIComponent(phone)}%0AПроект: ${encodeURIComponent(project)}`;
+ // Замените номер ниже на ваш Telegram/WhatsApp/email обработчик.
+ alert('Заявка заполнена. Подключите здесь ваш CRM, Telegram-бот или почтовый обработчик.');
+ console.log(text);
+}
+</script>
+</body>
+</html>
